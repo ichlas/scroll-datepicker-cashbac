@@ -43,7 +43,6 @@ npm install vue-scroll-datepicker-cashbac --save
 import { mapMutations, mapGetters } from 'vuex'
 import scrolldatepicker from 'vue-scroll-datepicker-cashbac';
 export default {
-  name: 'form-data',
   data() {
     return {
       dateBirth: '',
