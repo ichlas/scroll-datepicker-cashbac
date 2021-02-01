@@ -5,7 +5,7 @@ Fast, powerful and easy to use component datetime picker for Nuxt Vue.
 
 ## Demo
 
-See demo [here](https://miichlas.online/demo/vue-scroll-datepicker-cashbac)
+See demo [here](https://www.npmjs.com/package/vue-scroll-datepicker-cashbac)
 
 ![vue-datepicker-picker-cashbac](https://res.cloudinary.com/cashbac-media/image/upload/v1612190299/ezgif.com-gif-maker_bgnprm.gif)
 
@@ -14,10 +14,6 @@ See demo [here](https://miichlas.online/demo/vue-scroll-datepicker-cashbac)
 - Vue CLI `^@vue/cli 4.5.11`
 - Vue Nuxt `v2.14.12`
 
-
-## Npm Js
-
-[vue-scroll-datepicker-cashbac](https://www.npmjs.com/package/vue-scroll-datepicker-cashbac)
 
 ## Usage
 
