@@ -1,6 +1,7 @@
 <template>
   <div class="container">
     <div>
+      <div class="logo"></div>
       <h1>
         Scroll Datepicter
       </h1>
