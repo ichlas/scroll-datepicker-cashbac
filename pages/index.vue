@@ -18,7 +18,6 @@
 </template>
 
 <script>
-import { mapMutations, mapGetters } from 'vuex'
 import scrolldatepicker from "@/components/Scrolldatepicker";
 export default {
   name: 'form-data',
