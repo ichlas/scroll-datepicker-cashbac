@@ -47,7 +47,6 @@ npm install vue-scroll-datepicker-cashbac --save
 </template>
 
 <script>
-import { mapMutations, mapGetters } from 'vuex'
 import scrolldatepicker from 'vue-scroll-datepicker-cashbac';
 export default {
   data() {
