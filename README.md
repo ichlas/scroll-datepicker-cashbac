@@ -15,7 +15,7 @@ See demo [here](https://miichlas.online/demo/vue-scroll-datepicker-cashbac)
 - Vue Nuxt `v2.14.12`
 
 
-## NPMJS
+## Npm Js
 
 [vue-scroll-datepicker-cashbac](https://www.npmjs.com/package/vue-scroll-datepicker-cashbac)
 
