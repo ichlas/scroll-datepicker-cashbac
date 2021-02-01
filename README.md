@@ -5,7 +5,7 @@ Fast, powerful and easy to use component datetime picker for Nuxt Vue.
 
 ## Demo
 
-See demo [here](https://www.npmjs.com/package/vue-scroll-datepicker-cashbac)
+See demo [here](https://miichlas.online/demo/vue-scroll-datepicker-cashbac)
 
 ![vue-datepicker-picker-cashbac](https://res.cloudinary.com/cashbac-media/image/upload/v1612190299/ezgif.com-gif-maker_bgnprm.gif)
 
@@ -17,7 +17,6 @@ See demo [here](https://www.npmjs.com/package/vue-scroll-datepicker-cashbac)
 
 ## Usage
 
-We register the component in vuedatereward.js .
 Then we import the styles from the package in the component.
 v-model lets us save the selection to the datetime state.
 It has many slots to let us customize any section of the date-time picker.
