@@ -180,7 +180,6 @@ export default {
     },
     locateWheelByVal: function(dateString){
       var minDateObj = this.getDateStrObj(this.minDate);
-      // console.log(1)
       var dateObj = this.getDateStrObj(dateString);
       this.wheels[0].translateY = this.getDistanceByIndex(dateObj.year-minDateObj.year);
       this.wheels[1].translateY = this.getDistanceByIndex(dateObj.month-1);
@@ -252,7 +251,6 @@ export default {
                 }
             }
         }
-        // console.warn('');
         return false;
     },
     getDistanceByIndex: function(index){
@@ -276,7 +274,6 @@ export default {
     checkIsOverBorder: function(curWheelObj){
       var _this = this;
       this.oversizeBorder = -(curWheelObj.data.length-3)*this.liHeight;
-      // console.log(1)
       if(curWheelObj.translateY > 2 * this.liHeight){
         setTimeout(function(){
             curWheelObj.transitionTime = '700ms';
@@ -335,7 +332,6 @@ export default {
                 var scrollSpeed = this.offsetDistance/offsetTime;
                 var tempTime = Math.abs(parseInt(scrollSpeed*1000));
                 curWheelObj.transitionTime = '700ms';
-                // console.log(this.selectValue)
                 if(Math.abs(scrollSpeed)>0.3){
                     curWheelObj.transitionTime = tempTime > 700? (tempTime+'ms') : '700ms';
                     curWheelObj.translateY = this.fixPosition(curWheelObj.translateY + scrollSpeed * 250);
@@ -350,7 +346,6 @@ export default {
                 if(e.type=='mousemove' && !this.clickFlag){
                     return false;
                 }
-                // console.log('1')
                 this.moveY = e.type=='touchmove'? e.touches[0].clientY : e.clientY;
                 this.offset = this.moveY - this.oldMoveY;
                 curWheelObj.translateY += this.offset;
@@ -385,14 +380,11 @@ export default {
         var _this = this;
         var tempArr = [];
         this.wheels.forEach(function(item, wheelIndex){
-          console.log(_this.getWheelData(wheelIndex))
-          // tempArr.push('May 28, 1989');
           tempArr.push(_this.addPrefix(_this.getWheelData(wheelIndex)));
         });
         this.selectValue = tempArr.join('-');
         var dates = this.selectValue.split('-');
         this.selectNilai = _this.descBulan(dates[1])+' '+dates[2]+', '+dates[0];
-        // console.log(122)
         this.$emit('input', this.selectValue);
         this.hidePanel();
     },

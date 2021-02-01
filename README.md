@@ -53,12 +53,7 @@ export default {
     return {
       dateBirth: '',
       dataGender: 'Female',
-      dataName: '',
-      lsForm: {
-          strFullName: '',
-          strBirthDate:'',
-          strGender:''
-      }
+      dataName: ''
     };
   },
   components: {
