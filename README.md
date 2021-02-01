@@ -18,12 +18,10 @@ See demo [here](https://www.npmjs.com/package/vue-scroll-datepicker-cashbac)
 ## Usage
 
 We register the component in vuedatereward.js .
-
 Then we import the styles from the package in the component.
-
 v-model lets us save the selection to the datetime state.
-
 It has many slots to let us customize any section of the date-time picker.
+
 
 ```javascript
 npm install vue-scroll-datepicker-cashbac --save
