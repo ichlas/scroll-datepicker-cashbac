@@ -1,6 +1,6 @@
 {
   "name": "vue-scroll-datepicker-cashbac",
-  "version": "1.0.5",
+  "version": "1.0.7",
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
@@ -26,7 +26,10 @@
     "cli",
     "nuxt",
     "nuxt vue",
+    "front-end",
     "cashbac",
+    "mobile-first",
+    "framework",
     "datepicker",
     "scroll",
     "kalender",

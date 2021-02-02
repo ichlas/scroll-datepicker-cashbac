@@ -36,6 +36,16 @@ build/Release
 
 # Dependency directories
 node_modules/
+layouts/
+middleware/
+nuxt.config.js
+package-lock.json
+package.json
+pages/
+plugins/
+static/
+store/
+yarn.lock
 jspm_packages/
 
 # TypeScript v1 declaration files
