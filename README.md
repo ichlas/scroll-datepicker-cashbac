@@ -1,5 +1,8 @@
 # Vue Nuxt Scroll Datepicker - Cashbac
 
+
+![test](https://img.shields.io/npm/dt/vue-scroll-datepicker-cashbac.svg?style=flat-square)
+
 In this article, we’ll look at how date and time picker and a virtual scroll.
 Fast, powerful and easy to use component datetime picker for Nuxt Vue.
 
