@@ -1,14 +1,11 @@
 # Vue Nuxt Scroll Datepicker - Cashbac
 
-
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
 [![Circle CI][circle-ci-src]][circle-ci-href]
 [![Codecov][codecov-src]][codecov-href]
 [![Dependencies][david-dm-src]][david-dm-href]
 [![Standard JS][standard-js-src]][standard-js-href]
-
-> Leverage [`vue-multiselect`](https://vue-multiselect.js.org/).
 
 In this article, we’ll look at how date and time picker and a virtual scroll.
 Fast, powerful and easy to use component datetime picker for Nuxt Vue.
