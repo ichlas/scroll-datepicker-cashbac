@@ -69,16 +69,16 @@ export default {
 
 ### Props:
 
-| Name                   | Type                            | Default             | Description                                                                                                            |
-| --------------------- | -------- | ------------------------------- | ------------------- | ---------------------------------------------------------------------------------------------------------------------- |
-| v-model, value         | String, Date, DateTime (luxon)  |      yyyy-LL-dd HH:mm:ss               | Value                                                                                                                  |
-| value           | String                          | null | Value                         |
-| max              |          | String, Date, DateTime (luxon)  | yyyy-LL-dd HH:mm:ss                | Max date                                                                                                               |
-| min              |          | String, Date, DateTime (luxon)  | yyyy-LL-dd HH:mm:ss                | Min date                                                                                          
-| placeholder           | String                          | null | 
-| inputClass                    | String                          | null | 
-| inputStyle                    | String                          | null | 
-| themeColor                    | String                          | null |
+| Name                  | Type                            | Default             | Description                                                                                                            |
+| --------------------- | ------------------------------- | ------------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| v-model, value        | String, Date, DateTime (luxon)  |      yyyy-LL-dd HH:mm:ss               | Value                                                                                                                  |
+| value          | String                          | null | Value                         |
+| max              | String, Date, DateTime (luxon)  | yyyy-LL-dd HH:mm:ss                | Max date                                                                                                               |
+| min              | String, Date, DateTime (luxon)  | yyyy-LL-dd HH:mm:ss                | Min date                                                                                          
+| placeholder          | String                          | null | 
+| inputClass          | String                          | null | 
+| inputStyle          | String                          | null | 
+| themeColor          | String                          | null |
 
 ### Events:
 
