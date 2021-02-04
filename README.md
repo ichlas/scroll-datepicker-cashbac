@@ -1,12 +1,5 @@
 # Vue Nuxt Scroll Datepicker - Cashbac
 
-[![npm version][npm-version-src]][npm-version-href]
-[![npm downloads][npm-downloads-src]][npm-downloads-href]
-[![Circle CI][circle-ci-src]][circle-ci-href]
-[![Codecov][codecov-src]][codecov-href]
-[![Dependencies][david-dm-src]][david-dm-href]
-[![Standard JS][standard-js-src]][standard-js-href]
-
 In this article, we’ll look at how date and time picker and a virtual scroll.
 Fast, powerful and easy to use component datetime picker for Nuxt Vue.
 
@@ -76,16 +69,16 @@ export default {
 
 ### Props:
 
-| Name                  | Required | Type                            | Default             | Description                                                                                                            |
+| Name                   | Type                            | Default             | Description                                                                                                            |
 | --------------------- | -------- | ------------------------------- | ------------------- | ---------------------------------------------------------------------------------------------------------------------- |
-| v-model, value        | *        | String, Date, DateTime (luxon)  |      yyyy-LL-dd HH:mm:ss               | Value                                                                                                                  |
-| value          |          | String                          | null | Value                         |
+| v-model, value         | String, Date, DateTime (luxon)  |      yyyy-LL-dd HH:mm:ss               | Value                                                                                                                  |
+| value           | String                          | null | Value                         |
 | max              |          | String, Date, DateTime (luxon)  | yyyy-LL-dd HH:mm:ss                | Max date                                                                                                               |
 | min              |          | String, Date, DateTime (luxon)  | yyyy-LL-dd HH:mm:ss                | Min date                                                                                          
-| placeholder          |          | String                          | null | 
-| inputClass          |          | String                          | null | 
-| inputStyle          |          | String                          | null | 
-| themeColor          |          | String                          | null |
+| placeholder           | String                          | null | 
+| inputClass                    | String                          | null | 
+| inputStyle                    | String                          | null | 
+| themeColor                    | String                          | null |
 
 ### Events:
 
